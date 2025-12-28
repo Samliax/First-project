@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well, welcome to my page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</head>
+<body>
+<div class="video-background">
+    <video autoplay muted loop playsinline>
+        <source src="media/slowgoth.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+</div>
+
+<main class ="main-page">
+    <header class="banner"></header>
+    <div class="banner">
+    <img src="images/Tittle.png" class="banner-img" alt="">
+    <h1 class="banner-text">𐌙Ꝋ𐌵𐌵𐌵, 𐌕𐌀𐌊𐌄 𐌋ꝊꝊ𐌊 Ꝋ𐌍 𐌌𐌙 𐌐𐌀Ᏽ𐌄!</h1>
+      <img src="images/bild1.png" class="anime-character" alt="">
+
+    </div>
+    </header>
+
+
+<nav class="side-links" aria-label="Social side-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="https://steamcommunity.com/profiles/76561199744641070/">Gaming</a></li>
+<li><a href="https://www.tiktok.com/en-GB">Tiktok</a></li>
+<li><a href="https://www.instagram.com/">Instegram</a></li>
+<li><a href="my-life.html">Study Tips</a></li>
+</nav>
+
+<main class="page">
+<section class="board">
+<div class="glass-panel"></div>
+<div class="panel-layout"></div>
+
+<!--Här jag ska ha bilder för cirkel--->
+<div class="circle-placeholder">
+<div class="splide circle-splide">
+<div class="splide__track">
+    <ul class="splide__list">
+        <li class="splide__slide">
+            <img src="images/anime1.gif" alt="anime1">
+        </li>
+        <li class="splide__slide">
+            <img src="images/anime2.gif" alt="anime2">
+        </li>
+        <li class="splide__slide">
+            <img src="images/anime3.gif" alt="anime3">
+        </li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<!--About me scrollbar text-->
+<div class="about-box">
+<h2>About Me</h2>
+<div class="about-scroll">
+    <p>Hi, my name is Sam, 22 years old, here a few things about me:
+        i do like to play video games on pc, so yeah im gamer, i do like programming
+        and learn about new things in tech world. Im still student and my dream to learn 
+        alot of things about programming and web development&system. Im still noobie which mean
+        begginer but i will be there in the furture, Never give up no matter what!
+        i do like to watch anime and horro movies, i do have boyfriend, and he is 
+        the cutiest person ever!
+    </p>
+ <p>You could find my information here in the website, my steam account also if you want
+    to see my favorite games that i do play, i will uppdate my website more often in the
+     future, tho im still learning sooo, its not the website i want yet,
+     Oh yeah i will try to put my discord account, incase anyone would like to be friends"
+</p>   
+       
+  </div>
+</div>
+
+<!-- eidtera lite här för bild,etc -->
+<img class="character-girl" src="images/bild3.png" alt="">
+   <!-- emoji -->
+<img class="Heart1" src="images/Heart1.png" alt="">
+<img class="Heart2" src="images/Heart2.png" alt="">
+<img class="Heart3" src="images/Heart3.png" alt="">
+</section>
+
+
+<main class="content">
+    <h1>Welcome to my page</h1>
+    <p>Det här websida för att berätta lite om mig själv</p>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.circle-splide', {
+      type     : 'loop',
+      autoplay : true,
+      arrows   : false,
+      pagination: false,
+    }).mount();
+  });
+</script>
+
+</main>
+</body>
+</html>
